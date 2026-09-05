@@ -37,6 +37,7 @@ app.post('/api/gerar-relatorio', async (req, res) => {
     }
 });
 
+// Inicializa o servidor na porta do Render ou na porta 3000 localmente
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`Soolsapp rodando na porta ${PORT}`);
